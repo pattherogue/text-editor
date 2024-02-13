@@ -4,13 +4,13 @@ This Python project implements a simple text editor that allows users to input a
 
 ## Features
 
-- **Undo/Redo Functionality**: The core feature of the text editor is the implementation of undo and redo functionality. This is achieved using the stack data structure to store the history of text edits made by the user. Each edit operation is pushed onto the stack, and when the user requests an undo operation, the most recent edit is popped from the stack and applied to the text. Redo operations involve popping edits from a redo stack and reapplying them to the text.
+- **Undo/Redo Functionality**: Undo/Redo Functionality: Allows users to undo and redo their text edits using a stack data structure, providing a seamless editing experience.
 
-- **Efficient Text Manipulation**: The text editor efficiently handles text manipulation operations using Python's built-in string methods and slicing operations. Text is stored as a string within the text editor class, and operations such as insertion and deletion of text are performed efficiently by leveraging the properties of strings, such as immutability and indexing.
+- **Efficient Text Manipulation**: Utilizes Python's string methods for fast and effective text insertion and deletion, ensuring smooth user interaction.
 
-- **Error Handling with Exceptions**: The project includes error handling mechanisms to ensure the robustness of the application. For example, input validation is performed to prevent the user from attempting to delete a negative number of characters. In case of such an invalid input, a ValueError exception is raised, and appropriate error messages are displayed to the user. This demonstrates proficiency in error handling and ensuring the reliability of the program.
+- **Error Implements error handling to prevent invalid operations, such as attempting to delete a negative number of characters, enhancing the reliability of the editor.
 
-- **Memory Management and Efficiency**: The text editor ensures efficient memory usage by managing two separate stacks (`edit_history` and `redo_history`) to store the edit history. By effectively managing memory resources and avoiding memory leaks, the text editor demonstrates proficiency in memory management, which is crucial for building efficient software systems.
+- **Memory Management and Efficiency**: Manages memory efficiently by organizing edit history into separate stacks, minimizing resource usage and optimizing performance.
 
 ## Usage
 
