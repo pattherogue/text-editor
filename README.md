@@ -25,7 +25,3 @@ Follow the on-screen prompts to perform text editing operations, including inser
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-This project was developed by [Your Name]. Feel free to reach out with any questions or feedback!
